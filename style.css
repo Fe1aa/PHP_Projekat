@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121212;
+  color: #f9fafb;
+}
+
+.white-text {
+  color: #f9fafb;
+}
+
+.muted-text {
+  color: #9ca3af;
+}
+
+.primary-text {
+  color: #dc2626;
+}
+
+.primary-accent-border {
+  border: 2px solid #dc2626 !important;
+}
+
+.primary-accent-bg {
+  background-color: #dc2626 !important;
+}
+
+.secondary-text {
+  color: #f59e0b !important;
+}
+
+.secondary-accent-border {
+  border: 2px solid #f59e0b !important;
+}
+
+.secondary-accent-bg {
+  background-color: #f59e0b !important;
+}
+
+.card-bg {
+  background-color: #1e1e1e !important;
+}
+
+.btn-crimson {
+  background-color: #dc2626;
+  border: 2px solid #dc2626;
+  color: #f9fafb;
+  font-weight: 500;
+  transition: transform 0.2s ease-in-out;
+}
+
+.btn-crimson:hover {
+  background-color: #dc2626 !important;
+  border: 2px solid #dc2626 !important;
+  transform: scale(1.1);
+  color: #f9fafb !important;
+}
+
+.btn-crimson:active {
+  background-color: #dc2626 !important;
+  border: 2px solid #dc2626 !important;
+  transform: scale(0.95);
+  border: 2px solid #dc2626 !important;
+}
+
+.btn-amber {
+  background-color: #f59e0b;
+  border: 2px solid #f59e0b;
+  color: #f9fafb;
+  font-weight: 500;
+  transition: transform 0.2s ease-in-out;
+}
+
+.btn-amber:hover {
+  background-color: #f59e0b !important;
+  border: 2px solid #f59e0b !important;
+  transform: scale(1.1);
+  color: #f9fafb !important;
+}
+
+.btn-amber:active {
+  background-color: #f59e0b !important;
+  border: 2px solid #f59e0b !important;
+  transform: scale(1.1);
+  color: #f9fafb !important;
+}
+
+.navbar-custom {
+  background-color: #1e1e1e !important;
+  border-bottom: 1px solid #2d2d2d;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+  color: #f9fafb !important;
+}
+
+.navbar-custom .navbar-brand {
+  font-size: 1.5rem !important;
+  padding: 1rem 0;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #dc2626 !important;
+}
+
+.navbar-custom .nav-link.active {
+  color: #dc2626 !important;
+  font-weight: 600;
+}
+
+.input {
+  background-color: #1e1e1e !important;
+  border: 2px solid #f59e0b !important;
+  color: #f9fafb !important;
+  transition: all 0.3s;
+}
+
+.input::placeholder {
+  color: #9ca3af !important;
+}
+
+.input:focus {
+  border-color: #dc2626 !important;
+  box-shadow: 0 0 0 0.25rem rgba(220, 38, 38, 0.25) !important;
+}
+
+.input:autofill {
+  background-color: #1e1e1e !important;
+  color: #f9fafb !important;
+}
+
+.hero-banner {
+  width: 100%;
+  background-image: url("images/Banner.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
